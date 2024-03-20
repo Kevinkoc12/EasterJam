@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5233541405165027860}
   - component: {fileID: 7805309106350355429}
   m_Layer: 4
-  m_Name: Huevo
+  m_Name: Huevo Ligero
   m_TagString: Huevo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

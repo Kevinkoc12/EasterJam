@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8015862526233215946
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2371385822129946590, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.406926
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371385822129946590, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.38965988
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371385822129946590, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371385822129946590, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371385822129946590, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371385822129946590, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371385822129946590, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371385822129946590, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371385822129946590, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371385822129946590, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573044257442154948, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 10abb3ed16f5ba047ba0074e4f024436, type: 3}
+    - target: {fileID: 6927039099913984143, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_Name
+      value: Huevo Ligero (1) Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}

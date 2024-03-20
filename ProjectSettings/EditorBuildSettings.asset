@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver (Deprecated).unity
     guid: 925c837c2b39db14cb9ee0f09589ad7f
+  - enabled: 1
+    path: Assets/LeaderboardCreator/Scenes/Game Over.unity
+    guid: db6d6d30da44a0043aa91979a8a2e39c
   m_configObjects: {}

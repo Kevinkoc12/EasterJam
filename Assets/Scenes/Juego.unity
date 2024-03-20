@@ -1876,7 +1876,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   huevos:
   - {fileID: 6927039099913984143, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+  - {fileID: 828811505079474909, guid: 4fd8cab83aa8f544ead8489ff401bb1f, type: 3}
   - {fileID: 1377649530856364455, guid: 5aaddfa539171004583be4bedc2c6f11, type: 3}
+  - {fileID: 4860618430961565784, guid: 8d139513c090627478e244e902a26d17, type: 3}
+  - {fileID: 1089828380601375557, guid: 3a17547c0fd888e478f9f8b60e852fd4, type: 3}
   spawnPoints:
   - {fileID: 1995236113}
   - {fileID: 312979649}

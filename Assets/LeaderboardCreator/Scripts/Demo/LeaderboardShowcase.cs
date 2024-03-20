@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace Dan.Demo
 {
+    
     public class LeaderboardShowcase : MonoBehaviour
     {
         [Header("Gameplay:")]
@@ -148,6 +149,7 @@ namespace Dan.Demo
         
         private void Start()
         {
+            Cursor.visible = true;
             _playerScore = PlayerPrefs.GetInt("Puntos", 0);
             _playerScoreText.text = $"Score: {_playerScore}";
             InitializeComponents();
