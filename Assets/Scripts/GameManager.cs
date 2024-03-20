@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
             if (vidas <= 0)
             {
                 //cambiar de escenas
-                SceneManager.LoadScene("GameOver");
+                SceneManager.LoadScene("Game Over");
             }
         }
     }
