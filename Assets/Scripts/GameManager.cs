@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
 
     public int vidas = 3;
-    int puntos = 0;
+    public int puntos = 0;
     public SpriteRenderer vidasSprite;
     public Sprite[] sprites;
     public static GameManager gameManager;

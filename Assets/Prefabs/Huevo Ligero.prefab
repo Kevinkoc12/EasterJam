@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxFuerzaY: 80
   maxFuerzaX: 30
-  puntos: 1
+  puntos: 25
 --- !u!50 &5233541405165027860
 Rigidbody2D:
   serializedVersion: 4

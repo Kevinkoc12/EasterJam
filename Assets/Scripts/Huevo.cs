@@ -36,11 +36,8 @@ public class Huevo : MonoBehaviour
             GetComponent<Rigidbody2D>().AddForce(new Vector2(fuerzaX, fuerzaY));
             tiempo--;
         }
-
-
-
-
     }
+
     public void encestado()
     {
         GameManager.gameManager.anadirPuntos(puntos);
