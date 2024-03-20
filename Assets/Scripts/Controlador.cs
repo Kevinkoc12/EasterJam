@@ -53,11 +53,25 @@ public class Controlador : MonoBehaviour
     void Update()
     {
 
-        Debug.Log(GameManager.gameManager.puntos);
-
-        if (GameManager.gameManager.puntos > 500)
+        if (GameManager.gameManager.puntos == 500)
         {
-            segundos= 2.5f;
+            segundos= 1.5f;
+        }
+        else if (GameManager.gameManager.puntos == 1000)
+        {
+            segundos= 1.25f;
+        }
+        else if (GameManager.gameManager.puntos == 1500)
+        {
+            segundos= 1f;
+        }
+        else if (GameManager.gameManager.puntos == 2000)
+        {
+            segundos= 0.75f;
+        }
+        else if (GameManager.gameManager.puntos == 2500)
+        {
+            segundos= 0.5f;
         }
 
     }

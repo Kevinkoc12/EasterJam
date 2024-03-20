@@ -63,7 +63,7 @@ public class GameManager : MonoBehaviour
        puntos += newPoint;
 
         //setear Puntos
-        puntosUI.text = puntos.ToString();
+        puntosUI.text = "Score: " + puntos.ToString();
 
         //guarda los puntos en memoria
         PlayerPrefs.SetInt("Puntos", puntos);
