@@ -55,11 +55,11 @@ public class Controlador : MonoBehaviour
 
         Debug.Log(GameManager.gameManager.puntos);
 
-        if (GameManager.gameManager.puntos % 1000 == 0)
+        if (GameManager.gameManager.puntos > 500)
         {
-            segundos -= 0.2f;
-            
+            segundos= 2.5f;
         }
+
     }
 
 }

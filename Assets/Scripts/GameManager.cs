@@ -36,6 +36,11 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (puntos < 0)
+        {
+            puntos = 0;
+            PlayerPrefs.SetInt("Puntos", puntos);
+        }
         vidasSprite.sprite = sprites[vidas];
     }
 
