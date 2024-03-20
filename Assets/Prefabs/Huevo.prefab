@@ -99,8 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c82accfc200184eade11156f0caf5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxFuerzaY: 70
+  maxFuerzaY: 80
   maxFuerzaX: 30
+  puntos: 1
 --- !u!50 &5233541405165027860
 Rigidbody2D:
   serializedVersion: 4

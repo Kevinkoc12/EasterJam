@@ -8,7 +8,7 @@ public class Controlador : MonoBehaviour
     public GameObject[] huevos;
     public Transform[] spawnPoints;
 
-    public int segundos;
+    public float segundos;
 
     IEnumerator generador ()
     {
