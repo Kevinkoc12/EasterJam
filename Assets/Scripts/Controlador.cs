@@ -20,19 +20,19 @@ public class Controlador : MonoBehaviour
         {
             Instantiate(huevos[0], spawnPoints[pos].position, spawnPoints[pos].rotation);
         }
-        else if (random >= 46 && random <= 75)
+        else if (random >= 46 && random <= 74)
         {
             Instantiate(huevos[1], spawnPoints[pos].position, spawnPoints[pos].rotation);
         }
-        else if (random >= 76 && random <= 90)
+        else if (random >= 75 && random <= 89)
         {
             Instantiate(huevos[2], spawnPoints[pos].position, spawnPoints[pos].rotation);
         }
-        else if (random >= 91 && random <= 96)
+        else if (random >= 90 && random <= 94)
         {
             Instantiate(huevos[3], spawnPoints[pos].position, spawnPoints[pos].rotation);
         }
-        else if (random >= 97 && random <= 100)
+        else if (random >= 95 && random <= 100)
         {
             Instantiate(huevos[4], spawnPoints[pos].position, spawnPoints[pos].rotation);
         }

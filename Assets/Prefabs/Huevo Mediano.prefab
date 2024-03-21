@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: puntos
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 910439806954183531, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: maxFuerzaX
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 910439806954183531, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: maxFuerzaY
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 2371385822129946590, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.37
@@ -56,6 +64,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 35193ac94c22bdc449b43714a402699f, type: 3}
+    - target: {fileID: 5233541405165027860, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
+      propertyPath: m_GravityScale
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 6927039099913984143, guid: ee785acf28b22204bb229db4ca8c3d0f, type: 3}
       propertyPath: m_Name
       value: Huevo Mediano

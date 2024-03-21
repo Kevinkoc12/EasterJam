@@ -9,6 +9,7 @@ public class Huevo : MonoBehaviour
     public int maxFuerzaY;
     public int maxFuerzaX;
     public int puntos = 1;
+    public int type = 0;
 
 
     void Start()
@@ -41,7 +42,7 @@ public class Huevo : MonoBehaviour
     public void encestado()
     {
         GameManager.gameManager.anadirPuntos(puntos);
-
+        if (type == 2 && GameManager.gameManager.vidas < 3) GameManager.gameManager.vidas++;
         Destroy(gameObject);
     }
 }

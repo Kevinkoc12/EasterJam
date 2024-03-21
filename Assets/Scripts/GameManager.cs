@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Huevo")
+        if (collision.tag == "Huevo" && collision.GetComponent<Huevo>().type==0)
         {
             Destroy(collision.gameObject);
             vidas--;
@@ -55,6 +55,10 @@ public class GameManager : MonoBehaviour
                 //cambiar de escenas
                 SceneManager.LoadScene("Game Over");
             }
+        }
+        if (collision.tag == "Huevo" && collision.GetComponent<Huevo>().type != 0)
+        {
+            Destroy(collision.gameObject);
         }
     }
 
