@@ -13,13 +13,10 @@ EditorBuildSettings:
     guid: fd0e88d38dd651042932d0379c43fd0a
   - enabled: 1
     path: Assets/Scenes/LeaderBoard.unity
-    guid: b0f9f9888759ee842ba9303f8e36f4f7
+    guid: c29f54592e6ab6d4281fd10683ce9cc3
   - enabled: 1
     path: Assets/Scenes/Info.unity
     guid: 09dd8fc97fbf44043976a11857b49c2b
-  - enabled: 1
-    path: Assets/Scenes/GameOver (Deprecated).unity
-    guid: 925c837c2b39db14cb9ee0f09589ad7f
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: db6d6d30da44a0043aa91979a8a2e39c
